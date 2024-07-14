@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Raindrop Ctrl+Enter Post",
+  "version": "0.1.0",
+  "description": "Raindrop hilight note is posted with Ctrl+Enter",
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": [
+      "script.js"
+    ]
+  }]
+}
